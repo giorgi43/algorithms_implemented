@@ -1,3 +1,4 @@
+#include <iostream>
 #include <chrono> // for measuring function runtime
 #include "file_handler.h"
 #include "sorting_algos.h"
