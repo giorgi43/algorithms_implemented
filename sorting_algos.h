@@ -20,7 +20,7 @@ void merge(std::vector<int>& arr, unsigned startIndex, unsigned midIndex, unsign
 int partition(std::vector<int>& v, unsigned startIndex, unsigned endIndex);
 
 /*
-* Helper function for quick sort, random choose
+* Helper function for quick sort, random choose. for now takes longer time and needs fix?
 */
 int randPartition(std::vector<int>& v, unsigned startIndex, unsigned endIndex);
 
