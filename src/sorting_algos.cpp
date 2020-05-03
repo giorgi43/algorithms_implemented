@@ -1,4 +1,4 @@
-#include "sorting_algos.h"
+#include "../include/sorting_algos.h"
 
 /*
 * Helper function to swap 2 elements in vectorArr

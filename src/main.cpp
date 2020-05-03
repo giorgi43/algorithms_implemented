@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono> // for measuring function runtime
-#include "file_handler.h"
-#include "sorting_algos.h"
+#include "../include/file_handler.h"
+#include "../include/sorting_algos.h"
 
 using namespace std;
 

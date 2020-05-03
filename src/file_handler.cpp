@@ -1,4 +1,4 @@
-#include "file_handler.h"
+#include "../include/file_handler.h"
 
 void loadIntoArray(std::ifstream& file, std::vector<int>& arr) {
 	int num;
