@@ -5,9 +5,15 @@ quick implementation of some algorithms
 ## Sorting algorithms
 compile and run
 
-```chmod +x compile.sh```
-```./compile.sh```
-```./main filename.txt```
+```
+chmod +x compile.sh
+```
+```
+./compile.sh
+```
+```
+./main filename.txt
+```
 
 you can generate your own files with unordered numbers for sorting
 on linux, Example:
