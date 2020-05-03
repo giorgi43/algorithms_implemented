@@ -1,5 +1,4 @@
 #include <chrono> // for measuring function runtime
-#include <algorithm>
 #include "file_handler.h"
 #include "sorting_algos.h"
 
@@ -7,7 +6,7 @@ using namespace std;
 
 void printArray(std::vector<int> arr, unsigned tillPos) {
 	for(unsigned i = 0; i < tillPos; i++) {
-		cout << arr[i] << " " << endl;
+		cout << arr[i] << endl;
 	}
 }
 
