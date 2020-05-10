@@ -1,7 +1,4 @@
 #include <vector>
-#include <algorithm> // std::swap
-#include <stdlib.h>
-#include <time.h>
 
 /*
 * selection sort

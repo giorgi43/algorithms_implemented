@@ -1,4 +1,7 @@
 #include "../include/sorting_algos.h"
+#include <algorithm> // std::swap
+#include <stdlib.h>
+#include <time.h>
 
 /*
 * Helper function to swap 2 elements in vectorArr
