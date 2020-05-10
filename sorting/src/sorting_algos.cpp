@@ -4,7 +4,7 @@
 * Helper function to swap 2 elements in vectorArr
 * Usage: swap(vectorArr, index1, index2);
 */
-void swapElements(std::vector<int>& arr, unsigned firstIndex, unsigned secondIndex) {
+static void swapElements(std::vector<int>& arr, unsigned firstIndex, unsigned secondIndex) {
 	auto tmpFirst = arr[firstIndex];
 	auto tmpSecond = arr[secondIndex];
 	arr[firstIndex] = tmpSecond;
@@ -14,7 +14,7 @@ void swapElements(std::vector<int>& arr, unsigned firstIndex, unsigned secondInd
 /*
 * Helper function for merge sort
 */
-void merge(std::vector<int>& arr, unsigned startIndex, unsigned midIndex,  unsigned endIndex) {
+static void merge(std::vector<int>& arr, unsigned startIndex, unsigned midIndex,  unsigned endIndex) {
 	auto n1 = midIndex - startIndex + 1;
 	auto n2 = endIndex - midIndex;
 
@@ -61,7 +61,7 @@ void merge(std::vector<int>& arr, unsigned startIndex, unsigned midIndex,  unsig
 /*
 * Helper function for quick sort. no random choose
 */
-int partition(std::vector<int>& v, unsigned startIndex, unsigned endIndex) {	
+static int partition(std::vector<int>& v, unsigned startIndex, unsigned endIndex) {	
 	int x = v[startIndex];
 	int i = startIndex;
 	for(int j = startIndex+1; j < endIndex; j++) {
@@ -78,7 +78,7 @@ int partition(std::vector<int>& v, unsigned startIndex, unsigned endIndex) {
 /*
 * Helper function for quick sort. random choose. for now takes longer time and needs fix?
 */
-int randPartition(std::vector<int>& v, unsigned startIndex, unsigned endIndex) {
+static int randPartition(std::vector<int>& v, unsigned startIndex, unsigned endIndex) {
 	srand(time(NULL));
 	unsigned randIndex = startIndex + rand()%(endIndex-startIndex);
 	std::swap(v[randIndex], v[startIndex]);
