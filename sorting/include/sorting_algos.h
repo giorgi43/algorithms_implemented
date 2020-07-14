@@ -1,3 +1,6 @@
+#ifndef SORTING_ALGOS
+#define SORTING_ALGOS
+
 #include <vector>
 
 /*
@@ -23,3 +26,5 @@ void mergeSort(std::vector<int>& unordered, unsigned startIndex, unsigned endInd
 * complexity (n*log(n)). choose pivot randomly
 */
 void quickSort(std::vector<int>& unordered, unsigned startIndex, unsigned endIndex);
+
+#endif
