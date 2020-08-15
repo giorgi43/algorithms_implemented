@@ -1,8 +1,8 @@
-#include "../include/file_handler.h"
+#include "../include/file_handler.hpp"
 
-void loadIntoArray(std::ifstream& file, std::vector<int>& arr) {
+void loadIntoVector(std::ifstream& file, std::vector<int>& v) {
 	int num;
 	while(file >> num) {
-		arr.push_back(num);
+		v.push_back(num);
 	}
 }
