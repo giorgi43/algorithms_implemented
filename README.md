@@ -1,5 +1,5 @@
 # algorithms
-quick implementation of some algorithms
+implementation of some algorithms
 
 
 ## Sorting algorithms
