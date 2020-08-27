@@ -5,8 +5,8 @@
 
 using namespace std;
 
-void printArray(std::vector<int> arr, std::size_t tillPos) {
-	for (auto i = 0; i < tillPos; ++i) {
+void printArray(const std::vector<int>& arr, std::size_t tillPos) {
+	for (auto i = 0; i < tillPos; i++) {
 		cout << arr[i] << '\n';
 	}
 }
