@@ -30,9 +30,9 @@ int main(int argc, char *argv[]) {
 	auto t1 = chrono::high_resolution_clock::now();
 	//insertionSort(nums);
 	//selectionSort(nums);
-	//mergeSort(nums, 0, nums.size()-1);
+	mergeSort(nums, 0, nums.size()-1);
 	//sort(nums.begin(), nums.end()); // std::sort
-	quickSort(nums, 0, nums.size());
+	//quickSort(nums, 0, nums.size());
 	auto t2 = chrono::high_resolution_clock::now();	
 	auto duration = chrono::duration_cast<chrono::microseconds>( t2 - t1 ).count();
 	

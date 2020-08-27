@@ -1,4 +1,4 @@
-g++ -c ./src/*.cpp -O2
-g++ -o main *.o -O2
+g++ -c ./src/*.cpp
+g++ -o sort *.o
 
 rm -r *.o
